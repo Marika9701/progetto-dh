@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Confronto tra alcune poesie de Il porto sepolto (1916) e L'Allegria
+               (1931)</title>
+            <author xml:id="GU"> Giuseppe Ungaretti </author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="MS">Marika Schillaci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName ref="FT">Francesca Tomasi</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher> </publisher>
+            <pubPlace> Università di Bologna</pubPlace>
+            <date>2022</date>
+            <availability>
+               <p>Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso
+                  commerciale è vietato.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="1"> Il porto sepolto</title>
+               <author> Giuseppe Ungaretti</author>
+               <editor> Carlo Ossola</editor>
+               <publisher>Marsilio</publisher>
+               <pubPlace>Venezia</pubPlace>
+               <date>2001</date>
+               <title n="2"> Vita d'un uomo. Tutte le poesie </title>
+               <author> Giuseppe Ungaretti</author>
+               <editor xml:id="ed"> Carlo Ossola </editor>
+               <publisher>Mondadori</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2009</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+         <editorialDecl>
+            <quotation marks="all"/>
+            <p>Sono stati eliminati i numeri di pagina dell’edizione cartacea di riferimento.</p>
+            <p>La codifica è stata effettuata su un campionario di cinque poesie </p>
+            <p>La seguente codifica è stata costruita a scopo dimostrativo, pertanto non deve essere
+               considerata un'edizione esaustiva</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>IN MEMORIA</head>
+            <lg>
+               <l n="1">
+                  <app>
+                     <rdg>
+                        <hi>In memoria</hi>
+                     </rdg>
+                  </app></l>
+               <l n="2">
+                  <app>
+                     <rdg>
+                        <hi>di</hi>
+                     </rdg>
+                  </app></l>
+               <l n="3">Moammed Sceab</l>
+               <l n="4">discendente</l>
+               <l n="5">di emiri di nomadi</l>
+               <l n="6">suicida</l>
+               <l n="7">perché non aveva più</l>
+               <l n="8">
+                  <app>
+                     <rdg>
+                        <hi> patria</hi></rdg>
+                  </app></l>
+            </lg>
+            <lg>
+               <l n="9">Amò la Francia</l>
+               <l n="10">e mutò nome <app>
+                     <rdg><hi>in</hi></rdg>
+                  </app>
+               </l>
+               <l n="11">
+                  <app>
+                     <rdg> </rdg>
+                  </app><hi>Marcel</hi></l>
+               <l n="12">ma non era francese</l>
+               <l n="13">e non sapeva più</l>
+               <l n="14">vivere</l>
+               <l n="15">nella tenda dei suoi</l>
+               <l n="16">dove si ascolta la cantilena</l>
+               <l n="17">gustando un caffè</l>
+            </lg>
+            <lg>
+               <l n="18">E non sapeva</l>
+               <l n="19">sciogliere</l>
+               <l n="20">il canto</l>
+               <l n="21">del suo abbandono</l>
+            </lg>
+            <lg>
+               <l n="22">L’ho accompagnato</l>
+               <l n="23">insieme alla padrona dell’albergo </l>
+               <l n="24">dove abitavamo</l>
+               <l n="25">a Parigi</l>
+               <l n="26">dal N°5 della rue des Carmes</l>
+               <l n="27">appassito vicolo in discesa</l>
+            </lg>
+            <lg>
+               <l n="28">Riposa</l>
+               <l n="29">nel camposanto d’Ivry</l>
+               <l n="30">sobborgo che pare</l>
+               <l n="31">
+                  <app>
+                     <rdg><hi>continuamente</hi></rdg>
+                  </app></l>
+               <l n="32">in una giornata</l>
+               <l n="33">di una decomposta fiera</l>
+            </lg>
+            <lg>
+               <l n="34">E forse io solo</l>
+               <l n="35">so ancora </l>
+               <l n="36">che visse</l>
+            </lg>
+            <lg>
+               <l n="37"><app>
+                     <rdg><hi>Saprò</hi></rdg>
+                  </app></l>
+               <l n="38"><app>
+                     <rdg><hi>fino al mio turno</hi></rdg>
+                  </app></l>
+               <l n="39"><app>
+                     <rdg><hi>di morire</hi></rdg>
+                  </app></l>
+
+            </lg>
+            <table cols="2">
+               <row>
+                  <cell>SILENZIO</cell>
+                  <cell>SILENZIO</cell>
+               </row>
+               <row>
+                  <cell>
+                     <lg>
+                        <l n="1">Conosco una città</l>
+                        <l n="2">che ogni giorno s’empie di sole</l>
+                        <l n="3">e tutto è rapito in quel momento</l>
+                     </lg>
+                     <lg>
+                        <l n="4">Me ne sono andato una sera</l>
+                        <l n="5">e dal bastimento</l>
+                        <l n="6">verniciato di bianco<app>
+                              <rdg><hi>urtante come un cigolio</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="7"><app>
+                              <rdg><hi>lontanando lucente di solitudine</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="8"><app>
+                              <rdg><hi>con in cuore un estremo limio di cicala</hi></rdg>
+                           </app></l>
+                        <l n="9"><app>
+                              <rdg><hi>strappata all’albero della sua scalmana</hi></rdg>
+                           </app></l>
+                        <l n="10"><app>
+                              <rdg><hi>col fresco miraggio di quel suo diadema</hi></rdg>
+                           </app></l>
+                        <l n="11"><app>
+                              <rdg><hi>di rubini al sole</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="12"><app>
+                              <rdg><hi>avevo visto</hi></rdg>
+                           </app></l>
+                        <l n="13">la mia città sparire</l>
+                        <l n="14">lasciando</l>
+                        <l n="15">un poco</l>
+                        <l n="16">un abbraccio di lumi nell’aria torbida</l>
+                        <l n="17">sospesi</l>
+                     </lg>
+                  </cell>
+                  <cell>
+                     <lg>
+                        <l n="1">Conosco una città</l>
+                        <l n="2">che ogni giorno s’empie di sole</l>
+                        <l n="3">e tutto è rapito in quel momento</l>
+                     </lg>
+                     <lg>
+                        <l n="4">Me ne sono andato una sera</l>
+                     </lg>
+                     <lg>
+                        <l n="5"><app>
+                              <rdg><hi>Nel cuore durava il limio</hi></rdg>
+                           </app></l>
+                        <l n="6">delle cicale</l>
+                     </lg>
+                     <lg>
+                        <l n="7">Dal bastimento</l>
+                        <l n="8">verniciato di bianco</l>
+                        <l n="9"><app>
+                              <rdg><hi>ho visto</hi></rdg>
+                           </app></l>
+                        <l n="10">la mia città sparire</l>
+                        <l n="11">lasciando</l>
+                        <l n="12">un poco </l>
+                        <l n="13">un abbraccio di lumi nell’aria torbida</l>
+                        <l n="14">sospesi</l>
+                     </lg>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="italic">
+                        <placeName>Mariano</placeName> il <date>27 Giugno 1916</date>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="italic">
+                        <placeName>Mariano</placeName> il <date>27 Giugno 1916</date>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <table cols="2">
+               <row>
+                  <cell>LA NOTTE BELLA</cell>
+                  <cell>LA NOTTE BELLA</cell>
+               </row>
+               <row>
+                  <cell>
+                     <lg>
+                        <l n="1">Quale canto s’è levato stanotte</l>
+                        <l n="2">che intesse</l>
+                        <l n="3">di cristallina eco del cuore</l>
+                        <l n="4"><app>
+                              <rdg><hi>l’illuminazione del cielo?</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="5">Quale festa sorgiva</l>
+                        <l n="6">di cuore a nozze<app>
+                              <rdg><hi>?</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="7"><app>
+                              <rdg><hi>D’ora in poi</hi></rdg>
+                           </app></l>
+                        <l n="8"><app>
+                              <rdg><hi>confidenziale</hi></rdg>
+                           </app></l>
+                        <l n="9"><app>
+                              <rdg><hi>mi genera</hi></rdg>
+                           </app></l>
+                        <l n="10"><app>
+                              <rdg><hi>ogni attimo d’universo</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="11">Sono stato</l>
+                        <l n="12">uno stagno</l>
+                        <l n="13">di buio </l>
+                     </lg>
+                     <lg>
+                        <l n="14"><app>
+                              <rdg><hi>Comparso allo spazio</hi></rdg>
+                           </app>
+                        </l>
+                        <l n="15"><app>
+                              <rdg><hi>l’ho morso</hi></rdg>
+                           </app>
+                        </l>
+                        <l n="16"><app>
+                              <rdg><hi>come un neonato</hi></rdg>
+                           </app>
+                        </l>
+                        <l n="17"><app>
+                              <rdg><hi>la mammella</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="18">Ora<app>
+                              <rdg><hi>sono delicato</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="19">Sono ubriaco d’universo</l>
+                     </lg>
+                     <lg>
+                        <l n="20"><app>
+                              <rdg><hi>Col mare mi son fatto</hi></rdg>
+                           </app></l>
+                        <l n="21"><app>
+                              <rdg><hi>una bara</hi></rdg>
+                           </app>
+                        </l>
+                        <l n="22"><app>
+                              <rdg><hi>di freschezza</hi></rdg>
+                           </app>
+                        </l>
+                     </lg>
+                  </cell>
+                  <cell>
+                     <lg>
+                        <l n="1">Quale canto s’è levato stanotte</l>
+                        <l n="2">che intesse</l>
+                        <l n="3">di cristallina eco del cuore</l>
+                        <l n="4"><app>
+                              <rdg><hi>le stelle</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="5">Quale festa sorgiva</l>
+                        <l n="6">di cuore a nozze</l>
+                     </lg>
+                     <lg>
+                        <l n="7">Sono stato</l>
+                        <l n="8">uno stagno di buio </l>
+                     </lg>
+                     <lg>
+                        <l n="9"><app>
+                              <rdg><hi>Ora mordo</hi></rdg>
+                           </app></l>
+                        <l n="10"><app>
+                              <rdg><hi>come un bambino la mammella</hi></rdg>
+                           </app>
+                        </l>
+                        <l n="11"><app>
+                              <rdg><hi>lo spazio</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="12">Ora sono ubriaco </l>
+                        <l n="13">d’universo</l>
+                     </lg>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="italic">
+                        <placeName>Devetachi</placeName>il <date>24 Agosto 1916</date></hi></cell>
+                  <cell><hi rend="italic">
+                        <placeName>Devetachi</placeName> il <date>24 Agosto 1916</date></hi>
+                  </cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <table cols="2">
+               <row>
+                  <cell>S. MARTINO DEL CARSO</cell>
+                  <cell>S. MARTINO DEL CARSO</cell>
+               </row>
+               <row>
+                  <cell>
+                     <lg>
+                        <l n="1">Di queste case</l>
+                        <l n="2">non<app>
+                              <rdg><hi>c’è</hi></rdg>
+                           </app>rimasto</l>
+                        <l n="3">che qualche</l>
+                        <l n="4">brandello di muro</l>
+                        <l n="5"><app>
+                              <rdg><hi>esposto all’aria</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="6">Di tanti</l>
+                        <l n="7">che mi corrispondevano</l>
+                        <l n="8">non è rimasto</l>
+                        <l n="9">neppure tanto</l>
+                        <l n="10"><app>
+                              <rdg><hi>nei cimiteri</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="11">Ma nel cuore</l>
+                        <l n="12">nessuna croce manca</l>
+                     </lg>
+                     <lg>
+                        <l n="13"><app>
+                              <rdg><hi>Innalzata</hi></rdg>
+                           </app></l>
+                        <l n="14"><app>
+                              <rdg><hi>di sentinella</hi></rdg>
+                           </app></l>
+                        <l n="15"><app>
+                              <rdg><hi>a che?</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="16"><app>
+                              <rdg><hi>Sono morti</hi></rdg>
+                           </app></l>
+                        <l n="17"><app>
+                              <rdg><hi>cuore malato</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="18"><app>
+                              <rdg><hi>Perché io guardi al mio cuore</hi></rdg>
+                           </app></l>
+                        <l n="19"><app>
+                              <rdg><hi>come a uno straziato paese</hi></rdg>
+                           </app></l>
+                        <l n="20"><app>
+                              <rdg><hi>qualche volta</hi></rdg>
+                           </app></l>
+                     </lg>
+                  </cell>
+                  <cell>
+                     <lg>
+                        <l n="1">Di queste case</l>
+                        <l n="2">non <app>
+                              <rdg><hi>è</hi></rdg>
+                           </app>rimasto</l>
+                        <l n="3">che qualche</l>
+                        <l n="4">brandello di muro</l>
+                     </lg>
+                     <lg>
+                        <l n="5">Di tanti</l>
+                        <l n="6">che mi corrispondevano</l>
+                        <l n="7">non è rimasto</l>
+                        <l n="8">neppure tanto</l>
+                     </lg>
+                     <lg>
+                        <l n="9">Ma nel cuore</l>
+                        <l n="10">nessuna croce manca</l>
+                     </lg>
+                     <lg>
+                        <l n="11"><app>
+                              <rdg><hi>È il mio cuore</hi></rdg>
+                           </app></l>
+                        <l n="12"><app>
+                              <rdg><hi>il paese più straziato</hi></rdg>
+                           </app></l>
+                     </lg>
+                  </cell>
+               </row>
+               <row>
+                  <cell><hi rend="italic">
+                        <placeName>Valloncello dell’Albero isolato</placeName> il <date>27 Agosto
+                           1916</date>
+                     </hi>
+                  </cell>
+                  <cell><hi rend="italic">
+                        <placeName> Valloncello dell’Albero isolato </placeName> il <date>27 Agosto
+                           1916 </date>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <table cols="2">
+               <row>
+                  <cell><app>
+                        <rdg><hi>PAESAGGIO</hi></rdg>
+                     </app></cell>
+                  <cell><app>
+                        <rdg><hi>MONOTONIA</hi></rdg>
+                     </app></cell>
+               </row>
+               <row>
+                  <cell>
+                     <lg>
+                        <l n="1">Fermato a due sassi</l>
+                        <l n="2">languisco</l>
+                        <l n="3">sotto questa <app>
+                              <rdg><hi>immensa</hi></rdg>
+                           </app></l>
+                        <l n="4"><app>
+                              <rdg><hi>appannata volta</hi></rdg>
+                           </app>di cielo </l>
+                     </lg>
+                     <lg>
+                        <l n="5">Il groviglio dei sentieri </l>
+                        <l n="6">possiede la mia cecità</l>
+                     </lg>
+                     <lg>
+                        <l n="7"><app>
+                              <rdg><hi>Non esiste altra cosa</hi></rdg>
+                           </app></l>
+                        <l n="8"><app>
+                              <rdg><hi>più squallida</hi></rdg>
+                           </app></l>
+                        <l n="9">di questa monotonia</l>
+                     </lg>
+                     <lg>
+                        <l n="10"><app>
+                              <rdg><hi>Una volta</hi></rdg>
+                           </app></l>
+                        <l n="11"><app>
+                              <rdg><hi>non sapevo</hi></rdg>
+                           </app></l>
+                        <l n="12"><app>
+                              <rdg><hi>ch’è banale</hi></rdg>
+                           </app></l>
+                        <l n="13"><app>
+                              <rdg><hi>la consunzione</hi></rdg>
+                           </app></l>
+                        <l n="14"><app>
+                              <rdg><hi>del cielo</hi></rdg>
+                           </app></l>
+                        <l n="15"><app>
+                              <rdg><hi>al tramonto</hi></rdg>
+                           </app></l>
+                        <l n="16"><app>
+                              <rdg><hi>e m’affievolivo poi</hi></rdg>
+                           </app></l>
+                        <l n="17"><app>
+                              <rdg><hi>adagiato</hi></rdg>
+                           </app> sulla mia terra<app>
+                              <rdg><hi> africana</hi></rdg>
+                           </app></l>
+                        <l n="18">calmata</l>
+                        <l n="19">a un arpeggio</l>
+                        <l n="20">perso<app>
+                              <rdg><hi>per</hi></rdg>
+                           </app> l’aria</l>
+                     </lg>
+                  </cell>
+                  <cell>
+                     <lg>
+                        <l n="1">Fermato a due sassi</l>
+                        <l n="2">languisco</l>
+                        <l n="3">sotto questa</l>
+                        <l n="4"><app>
+                              <rdg><hi>volta appannata</hi></rdg>
+                           </app></l>
+                        <l n="5">di cielo</l>
+                     </lg>
+                     <lg>
+                        <l n="6">Il groviglio dei sentieri</l>
+                        <l n="7">possiede la mia cecità</l>
+                     </lg>
+                     <lg>
+                        <l n="8"><app>
+                              <rdg><hi>Nulla è più squallido</hi></rdg>
+                           </app></l>
+                        <l n="9">di questa monotonia</l>
+                     </lg>
+                     <lg>
+                        <l n="10">Una volta</l>
+                        <l n="11">non sapevo</l>
+                        <l n="12">ch’è <app>
+                              <rdg><hi>una cosa</hi></rdg>
+                           </app></l>
+                        <l n="13"><app>
+                              <rdg><hi>qualunque</hi></rdg>
+                           </app></l>
+                        <l n="14"><app>
+                              <rdg><hi>perfino</hi></rdg>
+                           </app></l>
+                        <l n="15"><app>
+                              <rdg><hi>la consunzione serale</hi></rdg>
+                           </app></l>
+                        <l n="16"><app>
+                              <rdg><hi>del cielo</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="17"><app>
+                              <rdg><hi>E</hi></rdg>
+                           </app>sulla mia terra<app>
+                              <rdg><hi>affricana</hi></rdg>
+                           </app></l>
+                        <l n="18">calmata</l>
+                        <l n="19">a un arpeggio</l>
+                        <l n="20">perso <app>
+                              <rdg><hi>nell’</hi></rdg>
+                           </app>aria</l>
+                        <l n="21"><app>
+                              <rdg><hi>mi rinnovavo</hi></rdg>
+                           </app></l>
+                     </lg>
+                  </cell>
+               </row>
+               <row>
+                  <cell><hi rend="italic">
+                        <placeName> Valloncello dell’Albero isolato </placeName> il <date>22 Agosto
+                           1916 </date>
+                     </hi>
+                  </cell>
+                  <cell><hi rend="italic">
+                        <placeName> Valloncello dell’Albero isolato </placeName> il <date>22 Agosto
+                           1916 </date></hi></cell>
+               </row>
+            </table>
+
+
+         </div>
+      </body>
+   </text>
+</TEI>

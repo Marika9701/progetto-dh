@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Confronto tra alcune poesie de Il porto sepolto (1916) e L'Allegria (1931)</title>
+            <author xml:id="GU"> Giuseppe Ungaretti </author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="MS">Marika Schillaci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName ref="FT">Francesca Tomasi</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher> </publisher>
+            <pubPlace> Università di Bologna</pubPlace>
+            <date>2022</date>
+            <availability>
+               <p>Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso
+                  commerciale è vietato.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="1"> Il porto sepolto</title>
+               <author> Giuseppe Ungaretti</author>
+               <editor> Carlo Ossola</editor>
+               <publisher>Marsilio</publisher>
+               <pubPlace>Venezia</pubPlace>
+               <date>2001</date>
+               <title n="2"> Vita d'un uomo. Tutte le poesie </title>
+               <author> Giuseppe Ungaretti</author>
+               <editor xml:id="ed"> Carlo Ossola </editor>
+               <publisher>Mondadori</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2009</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+         <editorialDecl>
+            <quotation marks="all"/>
+            <p>Sono stati eliminati i numeri di pagina dell’edizione cartacea di riferimento.</p>
+            <p>La codifica è stata effettuata su un campionario di cinque poesie </p>
+            <p>La seguente codifica è stata costruita a scopo dimostrativo, pertanto non deve essere considerata un'edizione esaustiva</p>
+            </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+                  <head>SILENZIO</head>
+                     <lg>
+                        <l n="1">Conosco una città</l>
+                        <l n="2">che ogni giorno s’empie di sole</l>
+                        <l n="3">e tutto è rapito in quel momento</l>
+                     </lg>
+                     <lg>
+                        <l n="4">Me ne sono andato una sera</l>
+                        <l n="5">e dal bastimento</l>
+                        <l n="6">verniciato di bianco<app>
+                              <rdg><hi>urtante come un cigolio</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="7"><app>
+                              <rdg><hi>lontanando lucente di solitudine</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="8"><app>
+                              <rdg><hi>con in cuore un estremo limio di cicala</hi></rdg>
+                           </app></l>
+                        <l n="9"><app>
+                              <rdg><hi>strappata all’albero della sua scalmana</hi></rdg>
+                           </app></l>
+                        <l n="10"><app>
+                              <rdg><hi>col fresco miraggio di quel suo diadema</hi></rdg>
+                           </app></l>
+                        <l n="11"><app>
+                              <rdg><hi>di rubini al sole</hi></rdg>
+                           </app></l>
+                     </lg>
+                     <lg>
+                        <l n="12"><app>
+                              <rdg><hi>avevo visto</hi></rdg>
+                           </app></l>
+                        <l n="13">la mia città sparire</l>
+                        <l n="14">lasciando</l>
+                        <l n="15">un poco</l>
+                        <l n="16">un abbraccio di lumi nell’aria torbida</l>
+                        <l n="17">sospesi</l>
+                     </lg>
+             </div>
+      </body>
+   </text>
+</TEI>
